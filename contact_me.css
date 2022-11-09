@@ -1,0 +1,30 @@
+h1{
+    padding-left: 10px;
+}
+form{
+    background-color:antiquewhite;
+    margin: 20px;
+}
+label.leftLabel{
+    padding-right: 50px;
+}
+.input{
+    padding: 10px;
+}
+textarea{
+    resize: none;
+}
+.row{
+    display: flex;
+    align-content:left;
+}
+textarea{
+    width: 400px;
+}
+.textInput{
+    width:300px;
+}
+input[type=button],
+input[type=submit] {
+    background-color: #d6a38e;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-image: url(images/Infinite-Brick.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: aquamarine;
+    padding: 8px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    padding-right: 36px;
+}
+.ab{
+    background-color: rgb(158, 197, 255);
+}
+.pr{
+    background-color: rgb(255, 146, 246);
+}
+.re{
+    background-color: orange;
+}
+.co{
+    background-color: yellow;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+}
+.colTwo p{
+    width: 240px;
+}
+.colTwo h3{
+    background-color: antiquewhite;
+}
+.colTwo p{
+    background-color: antiquewhite;
+}
+.colOne{
+    display: flex;
+    margin: 12px;
+    
+}
+.colOne img{
+    display: flex;
+    width: 540px;
+    padding: 12px
+}
+.right{
+text-align: right;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 44px;
+}

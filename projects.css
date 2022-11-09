@@ -1,0 +1,12 @@
+table{
+    width: 75%;
+    margin: auto;
+    margin-top: 44px;
+    border-spacing: 0;
+    border-style: solid;
+    background-color:antiquewhite
+}
+tr, td{
+    border-style: solid;
+    border-width: 1px;
+}

@@ -1,0 +1,17 @@
+.about{
+    display: flex;
+    margin: 44px;
+    padding: 14px;
+    width: 880px;
+    background-color: antiquewhite;
+}
+.center{
+    justify-content:center;
+}
+.column{
+    flex-direction: column;
+    list-style-position: inside;
+}
+.about ul{
+    list-style: none;
+}

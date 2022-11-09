@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaki Jasper</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact_me.css">
+</head>
+
+<body>
+    <header class="co">
+        <h1>Contact Me</h1>
+        <h2><a href="index.html">Back to Main Page</a></h2>
+        <ul>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </header>
+    <div>
+        <form id="contact-me" method="post" name="contact-me" target="_blank" action="https://www.w3schools.com/action_page.php">
+            <fieldset>
+                <legend>Contact Us</legend>
+            <div class="row input">
+                <label style="padding-right: 85px">Suffix:</label>
+                <div class="input">
+                    <input type="radio" name="title" value="Mr." id="Mr.">
+                    <label for="Mr.">Mr.</label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="title" value="Ms." id="Ms.">
+                    <label for="Ms.">Ms.</label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="title" value="Mrs." id="Mrs.">
+                    <label for="Mrs.">Mrs.</label>
+                </div>
+            </div>
+            <div>
+                <div class="input">
+                    <label class="leftLabel">First Name:</label>
+                    <input class="textInput" type="text" name="firstName" id="firstName" placeholder="First Name">
+                </div>
+            </div>
+            <div>
+                <div class="input">
+                    <label class="leftLabel">Last Name:</label>
+                    <input class="textInput" type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div>
+                
+                <div class="input">
+                    <label style="padding-right: 84px">Email:</label>
+                    <input class="textInput" type="text" name="email" id="email" placeholder="Your email address">
+                </div>
+            </div>
+            <div>
+                
+                <div class="input">
+                    <label style="padding-right: 77px">Phone:</label>
+                    <input class="textInput" type="text" name="phone" id="phone" placeholder="999-999-9999">
+                </div>
+            </div>
+            <div class="input">
+                <label style="padding-right:5px">Preferred Contact:</label>
+                <select name="contact" id="contact" size="1" class="textInput">
+                    <option value="1" selected disabled>Please Select</option>
+                    <option value="2">Phone</option>
+                    <option value="3">Text</option>
+                    <option value="4">Email</option>
+                </select>
+            </div>
+            <div class="input">
+                <label style="padding-right: 61px">Message:</label>
+                <textarea id="message" name="message" row="2" cols="20" class="textInput" placeholder="Enter your message here."></textarea>
+            </div>
+            <div class="row" style="padding-left:150px">
+                <input type="submit" value="Submit">
+            </div>
+            </fieldset>
+        </form> 
+    </div>
+</body>
+</html>
